@@ -53,7 +53,7 @@ a:focus{
 	top: 0;
 	width: 100%;
 	min-height: 100%;
-	background: -webkit-linear-gradient(right,#560202,BLACK
+	background: -webkit-linear-gradient(right,#490256,BLACK
 	);
 	padding: 40px 0;
 	display: flex;
@@ -65,8 +65,8 @@ a:focus{
 	text-align: center;
 	position: relative;
 	z-index: 3;
-	border: solid 0.2PX #ffffff5c;
-	padding: 0px 10px 100px 10px ;
+	
+	padding: 40px 40px 40px 40px ;
 }
 
 .logo{
@@ -77,17 +77,18 @@ a:focus{
 
 .logo h1{
 	color: #f2edec85;
-	font-size: 60px;
+	font-size: 55px;
 	font-weight: bold;
-	padding: 0 0 0px 15px;
+	padding: 0 0 60px 110px;
 }
 
 .logo p{
-	font-size: 60px;
+	font-size: 55px;
 	color: #ffffff80;
 	text-transform: uppercase;
-	letter-spacing: 0.08em;
+	letter-spacing: 0.0em;
 	margin: 0;
+	padding-bottom: 60PX;
 }
 
 .coming-text{
@@ -96,11 +97,12 @@ a:focus{
 }
 
 .coming-text h2{
-	font-size: 137px;
+	font-size: 144px;
 	color: #ffffff36;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	padding: 50px 0 0 0 ; 
+	padding: 40px 0 100PX 5px ; 
+	font-weight: 100;
 }
 
 .social-link{
