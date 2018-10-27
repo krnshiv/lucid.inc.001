@@ -65,8 +65,8 @@ a:focus{
 	text-align: center;
 	position: relative;
 	z-index: 3;
-	border: solid 2PX WHITE;
-	padding: 0px 50px 51px 60px ;
+	border: solid 0.2PX #ffffff5c;
+	padding: 0px 10px 100px 10px ;
 }
 
 .logo{
@@ -76,17 +76,17 @@ a:focus{
 }
 
 .logo h1{
-	color: #fff;
-	font-size: 52px;
-	font-weight: 100;
+	color: #f2edec85;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 0 0 0px 15px;
 }
 
 .logo p{
-	font-size: 52px;
-	color: #fff;
+	font-size: 60px;
+	color: #ffffff80;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	font-weight: 900;
 	margin: 0;
 }
 
@@ -96,14 +96,16 @@ a:focus{
 }
 
 .coming-text h2{
-	font-size: 100px;
-	color: #fff;
+	font-size: 137px;
+	color: #ffffff36;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
+	padding: 50px 0 0 0 ; 
 }
 
 .social-link{
 	text-align: center;
+	padding: 32px 0 0 0;
 }
 
 .social-link a{
@@ -111,8 +113,8 @@ a:focus{
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid #ffffff40;
+	color:#ffffff85;
 	font-size: 18px;
 	padding-top: 8px;
 	margin: 0 4px;
