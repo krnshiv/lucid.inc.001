@@ -1,8 +1,5 @@
-/*
-	Template Name 	: Minimal Coming Soon HTML Template
-	Author 			: Awaiken Theme
-	Author Url 		: https://awaikenthemes.com
-*/
+
+
 
 body{
 
@@ -209,30 +206,40 @@ a:focus{
 
 
 @media only screen and (max-width:1024px){
+
+	.comming-soon .container-fluid {
+		 padding-right: 0px;
+		 padding-left: 0px;}
+
 	.logo{
 		text-align: center;
 		display: flex;
 		align-items: center;
 		padding-bottom: 10px; 
 	}
+	.logo h1{
+		padding:0 0 60px 0; 
+	}	
+	
 	.coming-text{
 		padding: 30px 0;
 	}
 	
 	.coming-text h2{
-		font-size: 56px;
+		font-size: 160px;
 	}
 	.comming-soon {
 		position: absolute;
 		left: 0;
 		top: 0;
-		width: auto;
-		min-height: -webkit-fill-available;
+		width: 100%;
+		min-height: 100%;
 		background: -webkit-linear-gradient(right,#490256,BLACK
 		);
 		padding: 40px 0;
 		display: flex;
 		align-items: center;
+		overflow: hidden;
 	}
 	.social-link a{
 		width: 36px;
@@ -243,6 +250,10 @@ a:focus{
 }
 
 @media only screen and (max-width:768px){
+	.comming-soon .container-fluid {
+		padding-right: 0px;
+		padding-left: 0px;}
+
 	.new-text{
 		display: block;
 		width: 100%;
@@ -253,6 +264,21 @@ a:focus{
 		text-align: center;
 		align-items: center;
 		padding-bottom: 10px; 
+		flex-direction: column;
+		display: flex;}
+
+	.logo h1{
+		font-size: 30px;
+		padding: 0;
+		font-size: 30px;
+	}
+	.logo .pipe{
+		display: none;
+	}
+	
+	.coming-text h2 {
+		font-size: 100px;
+		padding: 0 0 120px 0;
 	}
 	
 	.newsletter-form{
@@ -267,33 +293,52 @@ a:focus{
 		position: absolute;
 		left: 0;
 		top: 0;
-		width: auto;
-		min-height: -webkit-fill-available;
+		width: 100%;
+		min-height: 100%;
 		background: -webkit-linear-gradient(right,#490256,BLACK
 		);
 		padding: 40px 0;
 		display: flex;
 		align-items: center;
+		overflow: hidden;
 	}
+
 }
 
 @media only screen and (max-width:480px){
+	.comming-soon .container-fluid {
+		padding-right: 0px;
+		padding-left: 0px;}
+
 	.logo{
 		text-align: center;
 		align-items: center;
 		padding-bottom: 10px; 
+		flex-direction: column;
+		display: flex;
 	}
-	.logo h1{
+	.logo p {
+		padding: 0;
 		font-size: 30px;
 	}
-	
-	.logo p{
-		font-size: 10px;
+	.logo h1{
+
+	}
+	.coming-text h2 {
+		font-size: 70px;
+		padding: 0;
 	}
 	
-	.coming-text{
-		padding: 20px 0 30px;
+	.logo h1{
+		font-size: 30px;
+		padding: 0;
+		font-size: 30px;
 	}
+	.logo .pipe{
+		display: none;
+	}
+	
+	
 	.comming-soon {
 		position: absolute;
 		left: 0;
@@ -305,14 +350,13 @@ a:focus{
 		padding: 40px 0;
 		display: flex;
 		align-items: center;
+		overflow: hidden;
 	}
 	.newsletter p{
 		font-size: 12px;
 	}
 	
-	.coming-text h2 {
-		font-size: 32px;
-	}
+	
 	
 	.new-text{
 		height: 40px;
@@ -324,13 +368,29 @@ a:focus{
 }
 
 @media only screen and (max-width:320px){
+	.comming-soon .container-fluid {
+		padding-right: 0px;
+		padding-left: 0px;}
+
 	.logo{
 		text-align: center;
 		align-items: center;
 		padding-bottom: 10px; 
+		flex-direction: column;
+		display: flex;
 	}
 	.logo p {
 		padding: 0;
+		font-size: 30px;
+	}
+	.logo .pipe{
+		display: none;
+	}
+	.logo h1{
+
+	}
+	.coming-text h2 {
+		font-size: 50px;
 	}
 	.comming-soon {
 		position: absolute;
@@ -343,6 +403,7 @@ a:focus{
 		padding: 40px 0;
 		display: flex;
 		align-items: center;
+	    overflow: hidden;
 	}
 	
 }
