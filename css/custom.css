@@ -343,8 +343,8 @@ a:focus{
 		position: absolute;
 		left: 0;
 		top: 0;
-		width: auto;
-		min-height: -webkit-fill-available;
+		width: 100%;
+		min-height: 100%;
 		background: -webkit-linear-gradient(top,#490256,BLACK
 		);
 		padding: 40px 0;
@@ -396,8 +396,8 @@ a:focus{
 		position: absolute;
 		left: 0;
 		top: 0;
-		width: auto;
-		min-height: -webkit-fill-available;
+		width: 100%;
+		min-height: 100%;
 		background: -webkit-linear-gradient(top,#490256,BLACK
 		);
 		padding: 40px 0;
